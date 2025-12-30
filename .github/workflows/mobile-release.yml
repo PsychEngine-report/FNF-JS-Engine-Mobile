@@ -66,7 +66,7 @@ jobs:
         with:
           name: iOSBuild
       - name: Move iOS File
-        run: mv ${{ github.workspace }}/JSEngine-iOS.ipa /home/runner/JSEngine-iOS.ipa
+        run: mv JSEngine-iOS.ipa JSEngine-iOS.ipa
       - name: Upload iOS Build to Release
         uses: svenstaro/upload-release-action@2.5.0
         with:

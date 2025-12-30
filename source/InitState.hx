@@ -1,6 +1,7 @@
 package;
 
 import flixel.FlxState;
+import Shaders;
 
 /**
  * Handles initialization of variables when first opening the game.
